@@ -1,9 +1,9 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://richardwollyce.com/api/profile/hero.svg?theme=dark&v=4" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://richardwollyce.com/api/profile/hero.svg?theme=dark&v=5" />
     <img
       alt="Live hero for Richard Wollyce"
-      src="https://richardwollyce.com/api/profile/hero.svg?theme=light&v=4"
+      src="https://richardwollyce.com/api/profile/hero.svg?theme=light&v=5"
       width="100%"
     />
   </picture>
