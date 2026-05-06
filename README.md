@@ -14,7 +14,7 @@
   |
   <a href="https://www.linkedin.com/in/richardwollyce-/">LinkedIn</a>
   |
-  <a href="https://github.com/richard-wollyce/hand-shark">Featured Project</a>
+  <a href="https://github.com/richard-wollyce/system-design-calculator">Featured Project</a>
   |
   <a href="https://www.instagram.com/richardwollyce/">Instagram</a>
 </p>
