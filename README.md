@@ -1,32 +1,34 @@
 # Richard Wollyce
 
-Full Stack Software Engineer focused on TypeScript, JavaScript, React, Next.js, Node.js, PostgreSQL, Supabase, Linux, and scalable web systems.
+**Full Stack Software Engineer** focused on TypeScript, JavaScript, React, Next.js, Node.js, PostgreSQL, Supabase, Linux, and security-oriented systems.
 
-I build secure, production-ready applications across frontend, backend, database, and infrastructure layers. My work includes ERP systems, dashboards, workflow automation, chat-driven interfaces, system design tools, and open-source products.
+I build production-ready software across frontend, backend, database, and infrastructure layers. My work includes ERP systems, workflow automation, secure data access, cloud deployments, and open-source projects with a strong focus on systems, cybersecurity, and technical execution.
 
-## Highlights
+## Core Focus
 
-- Built and maintain an internal ERP supporting inventory, sales, and daily operations across multiple teams and 200+ orders per day.
-- Reduced manual data entry errors by about 95% by replacing spreadsheet-based workflows with structured forms and validation.
-- Experience with React, Next.js, Node.js, TypeScript, Supabase, PostgreSQL, Docker, Linux, VPS deployments, CI/CD, RLS, and RBAC.
-- Interested in cybersecurity, infrastructure, system design, and high-quality software engineering.
+- Full Stack Engineering: React, Next.js, Node.js, TypeScript, APIs, dashboards, automation
+- Data & Infrastructure: PostgreSQL, Supabase, Linux, Docker, VPS, CI/CD
+- Security & Architecture: RLS, RBAC, secure system design, operational reliability
+- Current Direction: cybersecurity, infrastructure, and scalable software systems
+
+## Experience Highlights
+
+- Build and maintain an internal ERP that supports inventory, sales, and daily operations across multiple teams and 200+ orders per day
+- Reduced manual data entry errors by about 95% by replacing spreadsheet-based workflows with structured forms and validation
+- Work across deployment, monitoring, access control, and production recovery in Linux-based environments
+- Build end-to-end products from architecture to deployment and long-term maintenance
 
 ## Featured Projects
 
-- [QR Imposto](https://github.com/richard-wollyce/qr-imposto)  
-  Open-source mobile app built with React Native, Expo, and TypeScript that scans Brazilian NFC-e QR codes and shows tax paid on real purchases.
+### [cybersecurity](https://github.com/richard-wollyce/cybersecurity)
+Flagship project focused on cybersecurity labs, infrastructure hardening, practical security research, and security-oriented engineering.
 
-- [System Design Calculator](https://github.com/richard-wollyce/system-design-calculator)  
-  TypeScript-based tool for latency, throughput, bandwidth-delay product, and infrastructure reasoning in distributed systems.
+### [QR Imposto](https://github.com/richard-wollyce/qr-imposto)
+Open-source mobile app built with React Native, Expo, and TypeScript that scans Brazilian NFC-e QR codes and shows tax paid on real purchases.
 
-- [Studio R Chatbot](https://mayara.richardwollyce.cloud/form)  
-  Guided chatbot and dashboard for structured service requests, built with TypeScript, React, Node.js, and Next.js.
+### [System Design Calculator](https://github.com/richard-wollyce/system-design-calculator)
+TypeScript-based tool for latency, throughput, bandwidth-delay product, and infrastructure reasoning in distributed systems.
 
-- [Hand-Shark](https://github.com/richard-wollyce/hand-shark)  
-  Gesture-controlled 3D browser game using client-side hand tracking with MediaPipe and real-time browser rendering.
+## Connect
 
-## Links
-
-- [Portfolio](https://richardwollyce.com)
-- [LinkedIn](https://linkedin.com/in/richardwollyce-/)
-- [GitHub](https://github.com/richard-wollyce)
+[Portfolio](https://richardwollyce.com) • [LinkedIn](https://linkedin.com/in/richardwollyce-/) • [GitHub](https://github.com/richard-wollyce)
