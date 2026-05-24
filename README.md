@@ -20,14 +20,11 @@ I build production-ready software across frontend, backend, database, and infras
 
 ## Featured Projects
 
-### [cybersecurity](https://github.com/richard-wollyce/cybersecurity)
+### [Road To Cybersec](https://github.com/richard-wollyce/road-to-cybersec)
 Flagship project focused on cybersecurity labs, infrastructure hardening, practical security research, and security-oriented engineering.
 
 ### [QR Imposto](https://github.com/richard-wollyce/qr-imposto)
 Open-source mobile app built with React Native, Expo, and TypeScript that scans Brazilian NFC-e QR codes and shows tax paid on real purchases.
-
-### [System Design Calculator](https://github.com/richard-wollyce/system-design-calculator)
-TypeScript-based tool for latency, throughput, bandwidth-delay product, and infrastructure reasoning in distributed systems.
 
 ## Connect
 
