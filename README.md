@@ -21,7 +21,7 @@ I build production-ready software across frontend, backend, database, and infras
 ## Currently Building
 
 ### [Road To Cybersec](https://github.com/richard-wollyce/road-to-cybersec)
-Flagship project focused on cybersecurity labs, infrastructure hardening, practical security research, and security-oriented engineering.
+Learn about cybersecurity essentials, infrastructure hardening, practical security research, and security-oriented engineering for free.
 
 ## Connect
 
