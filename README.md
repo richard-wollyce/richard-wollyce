@@ -18,13 +18,10 @@ I build production-ready software across frontend, backend, database, and infras
 - Work across deployment, monitoring, access control, and production recovery in Linux-based environments
 - Build end-to-end products from architecture to deployment and long-term maintenance
 
-## Featured Projects
+## Currently Building
 
 ### [Road To Cybersec](https://github.com/richard-wollyce/road-to-cybersec)
 Flagship project focused on cybersecurity labs, infrastructure hardening, practical security research, and security-oriented engineering.
-
-### [QR Imposto](https://github.com/richard-wollyce/qr-imposto)
-Open-source mobile app built with React Native, Expo, and TypeScript that scans Brazilian NFC-e QR codes and shows tax paid on real purchases.
 
 ## Connect
 
