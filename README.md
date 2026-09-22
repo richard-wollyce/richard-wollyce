@@ -2,7 +2,7 @@
 
 **Tech Lead & Full-Stack Software Engineer | AI Systems**
 
-I build the infrastructure other software depends on. My main project is [Ulpia](https://github.com/richard-wollyce/ulpia), an open-source local-first memory and retrieval layer for AI agents written in Rust — RAG with no model in the retrieval path, with its evaluation harness published alongside it. The rest of my work is commerce: infoproducts, payment flows, and the attribution systems that report what each launch actually earned.
+I build the infrastructure other software depends on. My main project is [Ulpia](https://github.com/richard-wollyce/ulpia), an open-source local-first memory and retrieval layer for AI agents written in Rust — RAG with no model in the retrieval path, with its evaluation harness published alongside it. On top of it I'm building AI Tutor, a personal knowledge system that ingests your content and teaches it back to you. The rest of my work is commerce: infoproducts, payment flows, and the attribution systems that report what each launch actually earned.
 
 ## Focus Areas
 
@@ -24,21 +24,15 @@ Memory and retrieval layer for AI agent fleets: keyword index (SQLite FTS5) fuse
 - Privacy from git: untracked files are never served.
 - ~17,000 lines of Rust, one runtime dependency, 200+ tests, 36 architecture decision records.
 
+### AI Tutor — Personal Knowledge System *(coming soon)*
+**Built on Ulpia**
+
+AI Tutor ingests PDFs, articles, and links into a personal knowledge base and teaches that content back to you using structured pedagogical methods — Socratic dialogue and others. Runs locally or in the cloud, both under subscription. Ulpia handles all storage, retrieval, and memory; AI Tutor is the learning layer on top.
+
 ### Casa Seth — Infoproducts, Commerce & Conversion
 Engineering lead for a house that ships digital products: Mercado Pago/Pix checkout, UTM attribution, server-side event tracking, deduplication, and revenue reconciliation.
 
 **[BiblinhaPlay](https://biblinhaplay.com)** — cross-platform subscription (~500 users) with video, music, games, gamification, and BiblinhaCraft, a custom Three.js voxel experience.
-
-### [RoadToCyberSec.com](https://roadtocybersec.com) — Cybersecurity Learning Hub
-Structured learning path covering threat analysis, MFA, networking, incident response, and digital forensics.
-
-## Experience
-
-- **Ulpia — Creator & Maintainer** *(Aug 2026 – Present)*: local-first AI memory layer in Rust with benchmark harness, MCP server, and full decision record.
-- **Casa Seth — Tech Lead & Software Engineer** *(Apr 2026 – Present)*: architecture and delivery across payments, attribution, and BiblinhaPlay.
-- **MG Laser — Software Engineer** *(Nov 2025 – Apr 2026)*: ERP for inventory and sales; improved data quality, performance, and access control.
-- **Freelance — Independent Software Engineer** *(2018 – Present)*: full-stack apps, integrations, and operational tools from discovery through live support.
-- **Earlier:** IT Support at São Joaquim Hospital *(2017–2018)* and Technical Instructor at Escola Remington *(2015–2016)*.
 
 ## Core Technologies
 
@@ -49,13 +43,6 @@ Structured learning path covering threat analysis, MFA, networking, incident res
 - **Commerce:** Mercado Pago, Pix, webhooks, entitlements, attribution, PostHog.
 - **Infrastructure:** Docker, Linux, Nginx, GitHub Actions, Vercel, EAS, CI/CD.
 - **Quality:** Vitest, Playwright, Maestro, TDD.
-
-## Education & Certifications
-
-- **B.Sc. Software Engineering** — Universidade de Franca *(2025–2029, in progress)*
-- Santander Bootcamp: Rust and AI-Integrated Application Development *(2026)*
-- Computational Forensics and Digital Evidence Investigation — Universidade Cruzeiro do Sul *(2026)*
-- LEAD1x: Exercising Leadership — HarvardX / edX *(2026)*
 
 ## Languages
 
