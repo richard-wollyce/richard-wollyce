@@ -2,7 +2,8 @@
 
 **Software Engineer & Architect | AI Integrated Systems**
 
-Building high-performance, local-first software and deterministic memory infrastructure for AI systems.
+Building high-performance, local-first software and deterministic memory infrastructure for AI systems.  
+Founder of **[Veredito](https://vereditoapp.com)**, delivering verifiable facts ready for political debate and strategic arguments.
 
 ---
 
@@ -15,11 +16,11 @@ Building high-performance, local-first software and deterministic memory infrast
 
 ## 🛠️ Stack & Expertise
 
-- **Languages & Systems:** Rust, TypeScript, SQL, Linux
-- **AI & Architecture:** Deterministic RAG, Local LLMs (`llama.cpp`), SQLite FTS5, MCP, Local-First Architecture
+- **Languages & Platforms:** Rust, TypeScript, Python, SQL · macOS, Linux, Windows
+- **AI & Architecture:** Deterministic RAG, Agentic Systems, SQLite FTS5, MCP, Local-First Architecture
 
 ---
 
 ## 📬 Connect
 
-[Website](https://richardwollyce.com) · [LinkedIn](https://linkedin.com/in/richardwollyce-/) · [GitHub](https://github.com/richard-wollyce) · [Email](mailto:mail@richardwollyce.com)
+[Website](https://richardwollyce.com) · [LinkedIn](https://linkedin.com/in/richardwollyce-/) · [Email](mailto:mail@richardwollyce.com)
