@@ -7,10 +7,10 @@ Founder of **[Veredito](https://vereditoapp.com)**, delivering verifiable facts 
 
 ---
 
-## ⚡ Projects
+## ⚡ Open-Source Projects
 
 - **[Ulpia](https://github.com/richard-wollyce/ulpia)** — Local-first, zero-embedding AI memory infrastructure. Deterministic retrieval, BM25 + RRF, and verifiable abstention. *(Rust)*
-- **[Wollyce AI Tutor](https://github.com/richard-wollyce/ai-tutor)** — Open-source Socratic learning engine that educates you from your own notes with 100% local inference. *(Rust, Ulpia, DeepSeek R1)*
+- **[Wollyce AI Tutor](https://github.com/richard-wollyce/ai-tutor)** — Open-source learning engine that educates you from your own notes with 100% local inference. *(Rust, Ulpia, DeepSeek R1)*
 
 ---
 
