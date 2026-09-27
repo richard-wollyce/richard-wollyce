@@ -1,55 +1,63 @@
 # Richard Wollyce
 
-**Tech Lead & Full-Stack Software Engineer | AI Systems**
+**Software Engineer & Architect | AI Memory & Sovereign Systems**
 
-I build the infrastructure other software depends on. My main project is [Ulpia](https://github.com/richard-wollyce/ulpia), an open-source local-first memory and retrieval layer for AI agents written in Rust — RAG with no model in the retrieval path, with its evaluation harness published alongside it. On top of it I'm building AI Tutor, a personal knowledge system that ingests your content and teaches it back to you. The rest of my work is commerce: infoproducts, payment flows, and the attribution systems that report what each launch actually earned.
+I build high-performance, local-first software and deterministic memory infrastructure for autonomous systems. My work focuses on eliminating hallucinations in AI systems by replacing opaque vector embeddings with auditable, zero-latency retrieval, and leveraging that foundation to build intelligent, sovereign educational tools.
 
-## Focus Areas
+---
 
-- **AI retrieval & evaluation:** deterministic, offline RAG for agents; abstention as a real verdict; benchmark harness published with the product.
-- **Platform architecture & leadership:** clear system boundaries, end-to-end delivery accountability.
-- **Commerce & conversion:** Mercado Pago, Pix checkout, idempotent webhooks, entitlements, attribution, server-side tracking, revenue reconciliation.
-- **Web & mobile:** responsive apps, PWAs, native mobile.
-- **Production reliability:** testing, CI/CD, monitoring, incident response.
+## 🧠 AI Memory & AI Tutor
 
-## Selected Work
+My primary architectural focus is the intersection of **deterministic memory retrieval** and **active pedagogical AI systems**:
 
-### [Ulpia](https://github.com/richard-wollyce/ulpia) — Local-First AI Memory Infrastructure
+### [Ulpia](https://github.com/richard-wollyce/ulpia) — Local-First AI Memory Infrastructure *(Public Open-Source)*
 **Rust | Apache 2.0 | [ulpia.io](https://ulpia.io)**
 
-Memory and retrieval layer for AI agent fleets: keyword index (SQLite FTS5) fused with Reciprocal Rank Fusion behind a confidence gate, no embedding model at query time.
+An open-source, local-first memory and retrieval layer for AI agent fleets.
+- **Zero embeddings at query time:** Exact SQLite FTS5 (BM25) fused with Reciprocal Rank Fusion (RRF) behind an explicit confidence verdict gate (`Hit`, `Guess`, `Nothing`).
+- **Verifiable abstention:** Declines out-of-scope queries (97% abstention on LongMemEval-S; 0.68 ms p50 warm latency).
+- **Safe agent tooling:** MCP server with strict read-only tools and zero write-surface accessible to models.
+- **Sovereign & lightweight:** ~17,000 lines of idiomatic Rust, single runtime dependency, 200+ unit tests, 36 Architecture Decision Records.
 
-- 28/30 out-of-scope questions declined on a blind adversarial set; 97% abstention on LongMemEval-S; 0.68 ms p50 warm latency.
-- MCP server with four read-only tools; no write tool a model can reach.
-- Privacy from git: untracked files are never served.
-- ~17,000 lines of Rust, one runtime dependency, 200+ tests, 36 architecture decision records.
+### Wollyce AI Tutor — Sovereign Socratic Learning System *(Private • Open-Source Release Coming Soon)*
+**Built on Ulpia & Rust**
 
-### AI Tutor — Personal Knowledge System *(coming soon)*
-**Built on Ulpia**
+A personal preceptor and learning engine designed to actively educate users on their own ingested material.
+- **Active Recall & Socratic Inquiry:** Rather than generating passive answers, it interrogates, challenges, and guides the student using pedagogical frameworks (Feynman Technique, Pólya, and Socratic Dialectic).
+- **100% Local Inference:** Engineered to run local sovereign models (DeepSeek R1 via `llama.cpp` / `llama-server`) with integrated thinking-trace parsing, zero cloud reliance, and intelligent idle power management.
+- **Deterministic Knowledge:** Ulpia serves as the underlying memory backbone, ensuring the tutor grounds all questions exclusively in the user's authentic notes and books.
 
-AI Tutor ingests PDFs, articles, and links into a personal knowledge base and teaches that content back to you using structured pedagogical methods — Socratic dialogue and others. Runs locally or in the cloud, both under subscription. Ulpia handles all storage, retrieval, and memory; AI Tutor is the learning layer on top.
+---
 
-### Casa Seth — Infoproducts, Commerce & Conversion
-Engineering lead for a house that ships digital products: Mercado Pago/Pix checkout, UTM attribution, server-side event tracking, deduplication, and revenue reconciliation.
+## 🛠️ Focus Areas
 
-**[BiblinhaPlay](https://biblinhaplay.com)** — cross-platform subscription (~500 users) with video, music, games, gamification, and BiblinhaCraft, a custom Three.js voxel experience.
+- **AI Memory & Retrieval:** Deterministic RAG, hybrid keyword-rank fusion, confidence evaluation harnesses, MCP protocol.
+- **Sovereign & Local AI:** Offline execution, `llama.cpp` integration, DeepSeek R1 reasoning extraction, battery/resource lifecycle management.
+- **Systems Architecture:** Clear component boundaries, type-level invariants in Rust, resilient multi-agent orchestration.
+- **Modern Full-Stack Interfaces:** Responsive, ultra-clean web & mobile interfaces focused on clarity and ergonomic interaction.
 
-## Core Technologies
+---
 
-- **Languages:** TypeScript, JavaScript, Rust, SQL; Python, Bash.
-- **AI & retrieval:** RAG, LLM evaluation, deterministic retrieval, SQLite FTS5, RRF, MCP.
-- **Web & mobile:** React, TanStack Start, Next.js, Expo, React Native, Three.js, Tailwind CSS.
-- **Backend & data:** Node.js, PostgreSQL, Supabase, Drizzle ORM, REST, Edge Functions, RLS, RBAC.
-- **Commerce:** Mercado Pago, Pix, webhooks, entitlements, attribution, PostHog.
-- **Infrastructure:** Docker, Linux, Nginx, GitHub Actions, Vercel, EAS, CI/CD.
-- **Quality:** Vitest, Playwright, Maestro, TDD.
+## 💻 Core Technologies
 
-## Languages
+- **Languages:** Rust, TypeScript, JavaScript, SQL, Bash.
+- **AI & Systems:** Deterministic RAG, Local LLMs, `llama-server`, SQLite FTS5, BM25, RRF, MCP, Evaluation Harnesses.
+- **Backend & Data:** Rust, Node.js, PostgreSQL, SQLite, Drizzle ORM, REST, WebSockets, SSE.
+- **Frontend & Mobile:** React, Next.js, Tauri v2, Tailwind CSS, Modern Web Standards.
+- **DevOps & Tooling:** Docker, Linux, Git, GitHub Actions, CI/CD, Benchmarking.
 
-Portuguese (native) · English (C1) · Spanish (fluent)
+---
 
-## Connect
+## 🌐 Languages
 
-Based in Franca, Brazil. Open to remote roles across Latin America and relocation to Santiago, Chile.
+- Portuguese (Native)
+- English (Fluent / C1)
+- Spanish (Fluent)
 
-[Portfolio](https://richardwollyce.com) | [CV](https://richardwollyce.com/richard-wollyce-cv.pdf) | [LinkedIn](https://linkedin.com/in/richardwollyce-/) | [GitHub](https://github.com/richard-wollyce) | [Email](mailto:mail@richardwollyce.com)
+---
+
+## 📬 Connect
+
+Based in Franca, Brazil. Open to engineering leadership, systems architecture, and specialized AI infrastructure roles.
+
+[Portfolio](https://richardwollyce.com) · [CV](https://richardwollyce.com/richard-wollyce-cv.pdf) · [LinkedIn](https://linkedin.com/in/richardwollyce-/) · [GitHub](https://github.com/richard-wollyce) · [Email](mailto:mail@richardwollyce.com)
